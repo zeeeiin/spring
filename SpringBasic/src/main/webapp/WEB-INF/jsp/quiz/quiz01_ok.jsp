@@ -8,13 +8,7 @@
 </head>
 <body>
 
-	이 파일을 화면에 띄워주세요
-	/WEB-INF/jsp/request/req_ex01.jsp
+	<h3>당신의 생일은 ${year }년 ${month }월 ${day }일</h3>	
 
-	<a href="basic1">basic1번 요청</a>
-	<a href="basic2">basic2번 요청</a>
-	<a href="basic3">basic3번 요청</a>
-	
-	
 </body>
 </html>

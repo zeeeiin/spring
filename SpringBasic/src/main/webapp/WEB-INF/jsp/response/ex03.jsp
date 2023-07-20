@@ -8,12 +8,10 @@
 </head>
 <body>
 
-	이 파일을 화면에 띄워주세요
-	/WEB-INF/jsp/request/req_ex01.jsp
-
-	<a href="basic1">basic1번 요청</a>
-	<a href="basic2">basic2번 요청</a>
-	<a href="basic3">basic3번 요청</a>
+	<h3>ModelAndView 방식</h3>
+	화면과 데이터를 같이 실어보내는 방식
+	
+	컨트롤러에서 넘어온 값: ${serverTime}
 	
 	
 </body>

@@ -8,13 +8,12 @@
 </head>
 <body>
 
-	이 파일을 화면에 띄워주세요
-	/WEB-INF/jsp/request/req_ex01.jsp
+	<h3>ModelAttribute로 넘어온 값</h3>
 
-	<a href="basic1">basic1번 요청</a>
-	<a href="basic2">basic2번 요청</a>
-	<a href="basic3">basic3번 요청</a>
-	
+	${xxx } <!-- 넘어온 값 그대로 관통해서 받을 수 있다. -->
+	<!-- 객체로 들어오는 거니까 이렇게 받을 수 있다. -->
+	${xxx.name }
+	${xxx.age }
 	
 </body>
 </html>
