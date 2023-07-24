@@ -10,6 +10,8 @@
 
 	<h3>결과</h3>
 	
+	<a href="scoreList">목록으로..</a>
+	
 	
 </body>
 </html>
